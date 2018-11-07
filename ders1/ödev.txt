@@ -1,0 +1,6 @@
+ÖDEV-1-
+1)Aðýrlýk(kg) ve boy(cm) deðerlerimizi kullanýcýdan input þeklinde alacaðýz.
+2)vki(vücut kitle indeksi)=agirlik / ((boy/100) * (boy/100))
+3)eðer vki<=18.5(vki 18.5den küçük veya eþitse) ekrana "Düþük Kilolu" yazdýrýn.
+  eðer vki<=24.9 ise ekrana "Normal Kilolu" yazdýrýn
+  diðer durumlarda ise ekrana "Fazla Kilolu" yazdýrýn.
