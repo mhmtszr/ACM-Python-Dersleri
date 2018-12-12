@@ -39,9 +39,8 @@ notlar=[10,100,50]
 """
 """
 a={"Mehmet":10,"Güney":100,"Acm":50}
-print(a["Güney"])
+print(a["Mehmet"])
 """
-
 """
 a.keys() -> keyleri döndürür
 
@@ -59,8 +58,10 @@ dosya.write("Python dersine hoşgeldiniz")
 """
 """
 dosya=open("output.txt","w")
-dosya.write("Python\nJava\nC\nC++")
+dosya.write("Python\nJava\nC\nC++\n")
 """
+dosya=open("output.txt","a") #append
+dosya.write("\nHaskell")
 """
 dosya=open("output.txt","r") #read
 print(dosya.read())
@@ -95,9 +96,17 @@ print(a)
 """
 """
 try:
-    print(5/2)
+    print(5/0)
+except ZeroDivisionError:
+    print("Sayıyı 0 a böldünüz")
+"""
+"""
+try:
+    dosya=open("merhaba.txt","r")
+    print(dosya.read())
 except:
-    print("Hata var")
+    print("bir hata aldınız")
+    
 """
 """
 try:

@@ -1,5 +1,6 @@
-Mehmet,100
-Sezer,20
-Guney,10
-ilkan,40
-Sena,0
+Haskell
+Haskell
+Haskell
+Haskell
+Haskell
+Haskell
